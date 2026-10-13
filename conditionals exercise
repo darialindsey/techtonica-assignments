@@ -14,7 +14,7 @@
 //   // ------------------------------------------
 //   // Write your code for exercise 0 below here:
 //   // ------------------------------------------
-//
+//    
 //   // ------------------------------------------
 //   // And above here
 //   // ------------------------------------------
@@ -55,7 +55,9 @@ function exercise1(num1) {
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
-  answer1 > 10
+  if (num1 > 10) {
+    answer1 = "The value of num1 is <num1 value> and is greater than 10.";
+}
   // ------------------------------------------
   // And above here
   // ------------------------------------------
@@ -137,6 +139,7 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
+  NaN is always false, so two NaN variables will fail. 
 
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
@@ -149,6 +152,8 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
     if (varA == varB) && () { 
       answer6 = true;
+  } else { 
+      answer6 = "unassigned";
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -173,7 +178,22 @@ function exercise7(num7) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-  switch(num7)
+  switch(num7) {
+    case1:
+      answer = "You won!";
+      break;
+    case7:
+      answer = "You are lucky!";
+      break;
+    case101:
+      answer = "Welcome to coding 101!";
+      break;
+    case10000000:
+      answer = "You are one in a million!";
+      break;
+    default:
+      answer = "Thanks for that!";
+
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -190,8 +210,8 @@ function exercise8(amount1, amount2, minimum, maximum) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-  amount1
-  amount2
+  amount1 > minimum amount && 
+  amount2 > minimum amount &&
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -232,7 +252,8 @@ function exercise10(num10) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+    if typeof item === "number"  {
+      switch (item) 
   // --------------------------------------------
   // And above here
   // --------------------------------------------
